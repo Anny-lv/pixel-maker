@@ -28,4 +28,4 @@ function makeGrid() {
 document.getElementById("sizePicker").addEventListener("submit", function (evt) {
     evt.preventDefault();
     makeGrid();
-});
+}); 
