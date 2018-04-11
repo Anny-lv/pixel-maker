@@ -20,12 +20,9 @@ function makeGrid() {
             const cell = row.insertCell(y);
             cell.addEventListener('click', function (evt) {
                 evt.target.style.backgroundColor = document.getElementById("colorPicker").value;
-
             });
-
         }
     }
-
    return false;
 }
 document.getElementById("sizePicker").addEventListener("submit", function (evt) {
